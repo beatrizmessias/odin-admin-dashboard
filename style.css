@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(231, 231, 232);
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    width: 350px;
+    background-color: rgb(97, 164, 252);
+    color: white;
+    padding: 20px;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgb(97, 164, 252);
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.project {
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    border-left: 8px solid orange;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    padding: 20px;
+}
+
+.project p, .announcements p {
+    font-weight: 300;
+}
+
+.main-title {
+    padding-left: 20px;
+}
+
+.announcements {
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.announcements p {
+    font-size: 14px;
+}
+
+.trending {
+    width: 300px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(231, 231, 232);
+}
+
+.header {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.account {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.btn-div {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 250px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+}
